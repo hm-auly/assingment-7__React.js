@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
-import {Button} from "@heroui/react";
 import Header from "./Components/Header";
+import Hiro from "./Components/Hiro";
+import Container from "./Components/Container";
 
 function App() {
   
@@ -9,9 +10,12 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-           <Route path="/" element={<Header />}>
-
+           <Route path="/" element={<Container />} >
+           
            </Route>
+           
+
+          
         </Routes>
     </BrowserRouter>
   )
