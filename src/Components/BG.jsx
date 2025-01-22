@@ -17,7 +17,7 @@ function BG() {
     ]
   return (
     <>
-        <section className='bg-[url(Auly.png)] bg-no-repeat bg-cover  py-24 md:px-28 px-5 '>
+        <section className='bg-[url(/Auly.png)] bg-no-repeat bg-cover  py-24 md:px-28 px-5 '>
             <div className='flex justify-center  md:items-center flex-col'>
                 <div className=' py-10'>
                     <h1 className='text-4xl md:text-5xl font-bold '>Train your aiDR on your...</h1>
