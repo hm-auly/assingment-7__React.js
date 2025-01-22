@@ -3,6 +3,7 @@ import Header from './Header';
 import Hiro from './Hiro';
 import Partners from './Partners';
 import Card from './Card';
+import BG from './BG';
 
 function Container() {
   return (
@@ -11,6 +12,7 @@ function Container() {
         <Hiro />
         <Partners />
         <Card />
+        <BG />
     </>
   )
 }
