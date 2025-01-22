@@ -7,7 +7,14 @@ export default {
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#0FF1F6",
+        secondary: "#adb2b1",
+        foreground: "#ffffff",
+      },
+      fontFamily: { mplus1: '"M PLUS 1", sans-serif' },
+    },
   },
   darkMode: "class",
   plugins: [heroui()],

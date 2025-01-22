@@ -22,7 +22,7 @@ import {
         <div className='flex gap-6 flex-col md:flex-row   justify-end'>
             {list.map((Item, i) => (
                 <div key={i}  >
-                    <a className='text-lg font-medium ' href="#">{Item}</a>
+                    <a className='text-lg font-medium hover:text-secondary duration-300' href="#">{Item}</a>
                 </div>
             ))}
         </div>
@@ -33,7 +33,7 @@ function Header() {
     
   return (
     <>
-        <Navbar  shouldHideOnScroll
+        <Navbar  shouldHideOnScroll 
       isBlurred={true} 
       className=" bg-transparent bg-[#002228] text-white w-full flex justify-between md:px-20 px-5"
       maxWidth="xl" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
@@ -58,8 +58,8 @@ function Header() {
                 <NavbarContent >
                     <NavbarBrand >
                     
-                        <Button className='bg-primary text-black rounded-full mr-5 '>Book a Demo</Button>
-                        <Button className='border border-gray-300  rounded-full'>Book a Demo</Button>
+                        <Button className='bg-primary text-black rounded-full mr-5  hover:shadow-lg hover:shadow-primary  shadow-xl duration-500 '>Book a Demo</Button>
+                        <Button className='border border-gray-300  rounded-full hover:bg-white hover:text-black shadow-xl transition-all duration-500'>Book a Demo</Button>
                    
                     </NavbarBrand>
                 </NavbarContent>
