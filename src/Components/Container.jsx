@@ -4,6 +4,7 @@ import Hiro from './Hiro';
 import Partners from './Partners';
 import Card from './Card';
 import BG from './BG';
+import Slider2 from './Slider';
 
 function Container() {
   return (
@@ -13,6 +14,9 @@ function Container() {
         <Partners />
         <Card />
         <BG />
+        <Slider2 />
+        
+        
     </>
   )
 }
