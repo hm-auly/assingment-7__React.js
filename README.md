@@ -1,4 +1,4 @@
-# React + ভিতে
+# React + Vite
 # use of Technology →  React.js,  Tailwind css,  next UI 
 # Live Link. →  https://assingment-7-flax.vercel.app
 
