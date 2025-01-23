@@ -45,7 +45,7 @@ function Slider2() {
      <section className='bg-[#002228] md:px-24 px-5 py-20'>
        
             <div className='flex justify-center  md:gap-20 gap-5 items-center text-center '>
-            <button className='bg-gray-600 p-1 rounded-sm hover:bg-gray-700' onClick={PrevSlid}><i class="fa-solid fa-arrow-left fa-xl "></i></button>
+            <button className='bg-[#96ACAF33] p-1 rounded-sm hover:bg-gray-700' onClick={PrevSlid}><i class="fa-solid fa-arrow-left fa-xl "></i></button>
                 {/* {slid.map((sliderInfo, index) => ( */}
                     <div  className=' flex flex-col justify-center items-center'>
                         <div className='w-12 flex justify-center items-center'>
@@ -57,7 +57,7 @@ function Slider2() {
                     </div>
                 
 
-                    <button className='bg-gray-600 p-1 rounded-sm hover:bg-gray-700' onClick={NextSlid}><i class="fa-solid fa-arrow-right fa-xl"></i></button>
+                    <button className='bg-[#96ACAF33] p-1 rounded-sm hover:bg-gray-700' onClick={NextSlid}><i class="fa-solid fa-arrow-right fa-xl"></i></button>
             </div>
             
         </section>

@@ -34,8 +34,8 @@ function Header() {
   return (
     <>
         <Navbar  shouldHideOnScroll 
-      isBlurred={true} 
-      className=" bg-transparent bg-[#002228] text-white w-full flex justify-between md:px-20 px-5"
+      isBlurred={true} style={{position: "fixed"}}
+      className=" bg-transparent bg-[#002228] text-white fixed w-full flex justify-between md:px-20 px-5"
       maxWidth="xl" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
 
             <div>

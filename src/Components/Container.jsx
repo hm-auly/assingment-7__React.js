@@ -5,6 +5,7 @@ import Partners from './Partners';
 import Card from './Card';
 import BG from './BG';
 import Slider2 from './Slider';
+import Rest from './Rest';
 
 function Container() {
   return (
@@ -15,6 +16,7 @@ function Container() {
         <Card />
         <BG />
         <Slider2 />
+        <Rest />
         
         
     </>
