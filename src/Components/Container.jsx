@@ -6,6 +6,7 @@ import Card from './Card';
 import BG from './BG';
 import Slider2 from './Slider';
 import Rest from './Rest';
+import Embrace from './Embrace';
 
 function Container() {
   return (
@@ -17,7 +18,7 @@ function Container() {
         <BG />
         <Slider2 />
         <Rest />
-        
+        <Embrace />
         
     </>
   )
