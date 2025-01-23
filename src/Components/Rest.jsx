@@ -24,6 +24,7 @@ function Rest() {
                     <p className='text-3xl md:text-4xl text-primary py-5'><i>Let us handle the rest.</i></p>
                     <p className='text-secondary text-xl'>Keep your reps “in the air” -- out in the field and on the phone where they can build relationships.</p>
                 </div>
+
                 <div className='flex gap-10 mt-24 flex-col md:flex-row'>
                     {count.map((counter, i) => (
                         <div key={i.id} className=''>

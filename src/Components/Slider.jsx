@@ -62,12 +62,6 @@ function Slider2() {
             
         </section>
 
-       
-
-     
-
-      
-       
      </>
   )
 }
