@@ -14,17 +14,24 @@ function Slider2() {
             bayo: "Chief Strategy Officer @ Company"
         },
         {
-            img: "/Images/Group 9.svg",
-            des: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 2",
-            name: "John Doe",
-            bayo: "Chief Strategy Officer @ Company"
+            img: "/Images/item3.svg",
+            des: "aTrain an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.",
+            name: "minal Hasan",
+            bayo: "Copy Right @ minal Hasan "
         },
-        {  
-            img: "/Images/Group 9.svg",     
-            des: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 3",
-            name: "John Doe",
-            bayo: "Chief Strategy Officer @ Company"
+        {
+            img: "/Images/item2.svg",
+            des: "Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.",
+            name:"junayed siddiky",
+            bayo: "Copy Right @ junayed siddiky"
         },
+        {
+            img: "/Images/item1.svg",
+            des: "aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work.",
+            name: "Hasan jamil shah",
+            bayo: "copy right @ auly ullah ashiky"
+        },
+        
     ];
 
     const [curentIndex, setCurentIndex] = useState(0);

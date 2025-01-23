@@ -58,7 +58,7 @@ function Header() {
                 <NavbarContent >
                     <NavbarBrand >
                     
-                        <Button className='bg-primary text-black rounded-full mr-5  hover:shadow-lg  hover:bg-black hover:text-white hover:shadow-gray-500  shadow-xl duration-500 '>Book a Demo</Button>
+                        <Button className='bg-primary text-black rounded-full mr-5  hover:shadow-xl hover:bg-black hover:text-white hover:shadow-gray-500  shadow-xl duration-500 '>Book a Demo</Button>
                         <Button className='border border-gray-300  rounded-full hover:bg-white hover:text-black shadow-lg transition-all duration-500 hover:scale-x-105 hover:shadow-white'>Book a Demo</Button>
                    
                     </NavbarBrand>
